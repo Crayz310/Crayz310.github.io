@@ -71,7 +71,7 @@ body {
     background-color: white;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 10px;
 }
 
@@ -185,6 +185,13 @@ body {
 
     .btn {
         margin-left: 23px;
+    }
+}
+
+/*Колонки в 1 столб*/
+@media (max-width: 560px) {
+    #block2 {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
