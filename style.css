@@ -132,13 +132,6 @@ body {
     vertical-align: -2.5px;
 }
 
-/*Кнопка по центру на моб*/
-@media (max-width: 412px) {
-    .btn {
-        margin: 0;
-    }
-}
-
 /*Человек на моб*/
 @media (max-width: 920px) {
     #block1 img {
@@ -180,6 +173,13 @@ body {
     }
 
     .btn {
-        /*margin-left: 23px;*/
+        margin-left: 23px;
+    }
+}
+
+/*Кнопка по центру на моб*/
+@media (max-width: 450px) {
+    .btn {
+        margin: 0;
     }
 }
