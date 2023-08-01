@@ -113,7 +113,6 @@ body {
     padding:8px 47px;
     text-decoration:none;
     transition: cubic-bezier(0, 0, 0.2, 1) 0.3s;
-    vertical-aligin: -2.5px;
 }
 .btn:hover {
     /*background-color:#e6e6e6;*/
@@ -181,6 +180,6 @@ body {
     }
 
     .btn {
-        margin-left: 23px;
+        /*margin-left: 23px;*/
     }
 }
