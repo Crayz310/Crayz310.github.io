@@ -46,7 +46,17 @@
  
     <!-- Подвал -->
     <div id="block3">
+        <p id="whc">w, h</p>
         <p>Powered by put.rope.on.my.neck</p>
     </div>
+
+    <script>
+        const whcElement = document.getElementById("whc");
+
+        const width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        const height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
+        whcElement.textContent = `first: ${width}pxk, sec: ${height}px`;
+    </script>
 </body>
 </html>
