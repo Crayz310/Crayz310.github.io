@@ -178,7 +178,7 @@ body {
 }
 
 /*Кнопка по центру на моб*/
-@media (max-width: 450px) {
+@media (min-width: 450px) {
     .btn {
         margin: 0;
     }
