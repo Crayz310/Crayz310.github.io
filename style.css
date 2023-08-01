@@ -24,7 +24,7 @@ body {
     margin-top: 0;
     /*color: #ebc711;*/
     color: #000;
-    font-family: "Montserrat";
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     font-weight: lighter;
     letter-spacing: -0.5px;
@@ -40,7 +40,7 @@ body {
     /*background-image: linear-gradient(180deg, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0.9) 14%, hsla(0, 0%, 0%, 0.8) 27%, hsla(0, 0%, 0%, 0.7) 40%, hsla(0, 0%, 0%, 0.6) 53%, hsla(0, 0% ,0%, 0.4) 67%, hsla(0, 0%, 0%, 0.2) 82%, hsla(0, 0%, 100%, 0) 100%), url(https://img.freepik.com/premium-photo/construction-equipment-repair-tool-kit-gray-concrete-background-top-view-space-text_594857-51.jpg);*/
     /*background-image: linear-gradient(0deg, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0.9) 14%, hsla(0, 0%, 0%, 0.7) 27%, hsla(0, 0%, 0%, 0.6) 40%, hsla(0, 0%, 0%, 0.5) 53%, hsla(0, 0% ,0%, 0.4) 67%, hsla(0, 0%, 0%, 0.2) 82%, hsla(0, 0%, 100%, 0) 100%), url(https://img.freepik.com/free-photo/arrangement-yellow-tools-top-view-with-copy-space_23-2148393100.jpg?w=740&t=st=1690827515~exp=1690828115~hmac=353d7d981ea0915121ac1e042f6ea962b0fe90f89f5434d46cccd177b00b54f3);*/
     /*background-color: rgba(0, 0, 0, 0.7);*/
-    /*background-blend-mode: screen;*/
+    background-blend-mode: screen;
     background-image: url(cover.png);
     background-color: rgb(247, 247, 247, 0);
     background-position: center;
@@ -65,6 +65,7 @@ body {
 
 /* 9 колонок в 2 ряда */
 #block2 {
+    font-family: 'Montserrat', sans-serif;
     background-color: white;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -83,6 +84,7 @@ body {
 
 /* Подвал */
 #block3 {
+    font-family: 'Montserrat', sans-serif;
     background-color: black;
     color: white;
     text-align: left;
@@ -129,10 +131,9 @@ body {
 }
 
 /*Кнопка по центру на моб*/
-@media (max-width: 450px) {
+@media (max-width: 412px) {
     .btn {
         margin: 0;
-        margin-right: 30px;
     }
 }
 
