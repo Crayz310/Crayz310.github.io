@@ -1,3 +1,8 @@
+:root {
+    --stcolor: black;
+    --hvcolor: black;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -240,8 +245,9 @@ body {
 }
 
 .fab-container {
+    z-index: 2;
     position: fixed;
-    bottom: 20px;
+    bottom: 30px;
     right: 20px;
 }
 
@@ -249,21 +255,29 @@ body {
     display: flex;
     width: 50px;
     height: 50px;
-    background-color: blue;
     justify-content: center;
     align-items: center;
+    background-color: var(--stcolor);
     color: white;
     border: none;
     border-radius: 50px;
-    font-size: 24px;
+    font-size: 20px;
     cursor: pointer;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .fab:hover {
-    background-color: darkblue;
+    background-color: var(--hvcolor);
     transform: scale(1.1);
+}
+
+.fb-yl {
+    
+}
+
+.fb-yl:hover {
+    
 }
 
 @media (min-width: 2048px) {
