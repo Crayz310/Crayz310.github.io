@@ -91,10 +91,80 @@ body {
 }
 
 #block2 p {
+    margin: 0;
     color: white;
-    font-size: 35px;
-    font-weight: bold;
+    font-size: 28px;
+    font-weight: 600;
 }
+
+#block2 ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+#block2 h4 {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    color: white;
+}
+
+/*#c1 h4:hover {
+    display: block;
+    animation: move 1s ease-in-out;
+}*/
+
+#c1, #c2, #c3, #c4, #c5, #c6, #c7, #c8, #c9, #c10{
+    position: relative;
+    overflow: hidden;
+}
+
+#c1::before, #c2::before, #c3::before, #c4::before, #c5::before, #c6::before, #c7::before, #c8::before, #c9::before, #c10::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    transition: transform 0.7s ease-in-out;
+    transform: translateY(100%);
+}
+
+#c1:hover::before, #c2:hover::before, #c3:hover::before, #c4:hover::before, #c5:hover::before, #c6:hover::before, #c7:hover::before, #c8:hover::before, #c9:hover::before, #c10:hover::before {
+    transform: translateY(0);
+}
+
+#c1 h4, #c2 h4, #c3 h4, #c4 h4, #c5 h4, #c6 h4, #c7 h4, #c8 h4, #c9 h4, #c10 h4 {
+    z-index: 1;
+    pointer-events: none;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: transform 0.5s ease-in-out;
+}
+
+#c1:hover h4, #c2:hover h4, #c3:hover h4, #c4:hover h4, #c5:hover h4, #c6:hover h4, #c7:hover h4, #c8:hover h4, #c9:hover, #c10:hover h4 {
+    position: static;
+    opacity: 100;
+    transform: translateY(0);
+}
+
+#c1 p, #c2 p, #c3 p, #c4 p, #c5 p, #c6 p, #c7 p, #c8 p, #c9 p, #c10 p {
+    z-index: 1;
+}
+
+#c1 {
+    background-image: url(https://avatars.dzeninfra.ru/get-zen_doc/5268479/pub_633416bc61119276f45335a7_633416ce0f587505db49fe32/scale_1200);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+#c1::before {
+    background: linear-gradient(0deg, rgba(98, 77, 65, 0.9), rgba(98, 77, 65, 0.7), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+}
+
 
 .column {
     background-image: url('https://i.ytimg.com/vi/DkIVqD8pJt8/maxresdefault.jpg');
@@ -103,6 +173,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
     border-radius: 10px;
     /*max-width: 80vh;*/
     width: 85%;
@@ -250,4 +322,21 @@ body {
     /*display: inline-block;*/
     float: right;
     /*margin-right: auto;*/
+}
+
+
+/*keyframess*/
+@keyframes move {
+    0% {
+        position: absolute;
+    }
+    5% {
+        position: static;
+        /*opacity: 0*/
+        transform: translateY(30px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
