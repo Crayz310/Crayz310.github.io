@@ -257,7 +257,7 @@ body {
     height: 50px;
     justify-content: center;
     align-items: center;
-    background-color: var(--stcolor);
+    background-color: var(--stcolor, orange);
     color: white;
     border: none;
     border-radius: 50px;
@@ -268,7 +268,7 @@ body {
 }
 
 .fab:hover {
-    background-color: var(--hvcolor);
+    background-color: var(--hvcolor, darkorange);
     transform: scale(1.1);
 }
 
