@@ -1,6 +1,10 @@
 const isSafari = /^((?!chrome | android).)*safari/i.test(navigator.userAgentData);
 const fab = document.getElementById('fab');
+const modalOverlay = document.getElementById('modalOverlay');
+const modal = document.getElementById('modal');
+const closeModal = document.getElementById('closeModal');
 const btn = document.querySelector('.btn');
+const body = document.body;
 
 if (!isSafari) {
 	function isOutOfView(element) {
@@ -18,7 +22,7 @@ if (!isSafari) {
 			document.documentElement.style.setProperty('--stcolor', 'orange')
 			document.documentElement.style.setProperty('--hvcolor', 'darkorange')
 		} else {
-			document.documentElement.style.setProperty('--stcolor', 'black')
+			document.documentElement.style.setProperty('--stcolor', '#0A0A0A')
 			document.documentElement.style.setProperty('--hvcolor', 'black')
 
 		}
@@ -27,6 +31,25 @@ if (!isSafari) {
 	window.addEventListener('scroll', handleFabColor);
 	window.addEventListener('resize', handleFabColor);
 
+	function openModal() {
+	  modalOverlay.style.display = 'flex';
+	  modal.style.animation = 'opst 0.3s linear';
+	  body.style.overflow = 'hidden';
+	}
+
+	function closeModalFn() {
+	  modalOverlay.style.display = 'none';
+	  body.style.overflow = 'auto';
+	}
+	fab.addEventListener('click', openModal);
+	closeModal.addEventListener('click', closeModalFn);
+	modalOverlay.addEventListener('click', function(event) {
+		if (event.target === modalOverlay) {
+			closeModalFn();
+		}
+	});
+
 	handleFabColor();
 }
+
 
