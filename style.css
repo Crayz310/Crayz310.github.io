@@ -289,7 +289,7 @@ body {
     font-weight: bold;
     padding:8px 47px;
     text-decoration:none;
-    transition: cubic-bezier(0, 0, 0.2, 1) 0.3s;
+    transition: cubic-bezier(0, 0, 0.2, 1) 0.1s;
 }
 .btn:hover {
     /*background-color:#e6e6e6;*/
@@ -363,6 +363,7 @@ body {
     padding: 20px;
     width: 80%;
     max-width: 80%;
+    will-change: margin-bottom;
 }
 
 .modal form {
