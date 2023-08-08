@@ -163,7 +163,7 @@ body {
 }
 
 #c1 {
-    background-image: url(https://avatars.dzeninfra.ru/get-zen_doc/5268479/pub_633416bc61119276f45335a7_633416ce0f587505db49fe32/scale_1200);
+    background-image: url(images/smesi.png);
 }
 
 #c1::before {
@@ -171,7 +171,7 @@ body {
 }
 
 #c2 {
-    background-image: url(https://www.kwadratura23.ru/_mod_files/ce_images/articles/gypsum2.jpg);
+    background-image: url(images/panel.jpg);
 }
 
 #c2::before {
@@ -179,7 +179,7 @@ body {
 }
 
 #c3 {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIut7_4eUem3-n99w6Z_awDAOAvpDBQ5DYzQ&usqp=CAU);   
+    background-image: url(images/bloki.jpg);   
 }
 
 #c3::before {
@@ -187,7 +187,7 @@ body {
 }
 
 #c4 {
-    background-image: url(https://thumbs.dreamstime.com/b/sintepon-%D0%B8%D0%B7%D0%BE-%D1%8F%D1%86%D0%B8%D1%8F-%D1%8F-%D0%BE-%D0%B5%D0%B6-%D1%8B-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0-82248807.jpg);
+    background-image: url(images/izolat.png);
 }
 
 #c4::before {
@@ -196,7 +196,7 @@ body {
 }
 
 #c6 {
-    background-image: url(https://st2.depositphotos.com/1000674/6696/i/450/depositphotos_66962153-stock-photo-equipment-for-installing-electrical-outlets.jpg);   
+    background-image: url(images/elekt.jpg);   
 }
 
 #c6::before {
@@ -204,7 +204,7 @@ body {
 }
 
 #c7 {
-    background-image: url(https://st3.depositphotos.com/2673929/18005/i/450/depositphotos_180059016-stock-photo-black-marble-bathroom-white-sink.jpg);   
+    background-image: url(images/santeh.jpg);   
 }
 
 #c7::before {
@@ -212,7 +212,7 @@ body {
 }
 
 #c8 {
-    background-image: url(https://thumbs.dreamstime.com/b/plumber-work-bathroom-plumbing-repair-service-assemble-install-concept-plumber-work-bathroom-plumbing-repair-113995223.jpg);
+    background-image: url(images/injener.png);
 }
 
 #c8::before {
@@ -220,7 +220,7 @@ body {
 }
 
 #c9 {
-    background-image: url(https://cdn.create.vista.com/api/media/small/622732468/stock-photo-many-building-corners-reinforcing-mesh);
+    background-image: url(images/svyazi.jpg);
 }
 
 #c9::before {
@@ -228,7 +228,7 @@ body {
 }
 
 #c10 {
-    background-image: url(https://i.bigenc.ru/imOx9FZaDmoZxKJlwBZjqmvJo01WHvUGb8Piz4wmjyM/og/ZmY4ZTI4ZjIxZTkzYTAxYzBkNTc0ZmRjMTU5YmI2NzYuanBn.jpg);
+    background-image: url(images/komponent.jpg);
 }
 
 #c10::before {
@@ -289,7 +289,7 @@ body {
     font-weight: bold;
     padding:8px 47px;
     text-decoration:none;
-    transition: cubic-bezier(0, 0, 0.2, 1) 0.1s;
+    transition: cubic-bezier(0, 0, 0.2, 1) 0.2s;
 }
 .btn:hover {
     /*background-color:#e6e6e6;*/
