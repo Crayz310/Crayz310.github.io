@@ -195,6 +195,14 @@ body {
 
 }
 
+#c5 {
+    background-image: url(images/krepej.jpg);
+}
+
+#c5::before {
+    background: linear-gradient(0deg, rgba(56, 63, 66, 0.9), rgba(69, 76, 79, 0.7), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+}
+
 #c6 {
     background-image: url(images/elekt.jpg);   
 }
@@ -439,6 +447,12 @@ body {
     }
 }
 
+@media (min-width: 920px) {
+    #block1 img {
+        padding-right: 0;
+    }
+}
+
 /*Отступ на больших девайсах*/
 @media (min-width: 1024px) {
     #hx {
@@ -451,6 +465,10 @@ body {
 
     .btn {
         margin-left: 5.5em;
+    }
+
+    #block1 img {
+        padding-right: 2.5em;
     }
 }
 
@@ -466,6 +484,10 @@ body {
 
     .btn {
         margin-left: 23px;
+    }
+
+    #block1 img {
+        padding-right: 0;
     }
 }
 
