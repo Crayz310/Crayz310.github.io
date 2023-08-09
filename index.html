@@ -39,7 +39,7 @@
     </div>
 
     <!-- just put it here -->
-    <div id="block1_5">
+    <div class="capt">
         <h1>Каталог</h1>
     </div>
 
@@ -126,21 +126,37 @@
     <div class="fab-container">
         <i class="fab bi bi-telephone-fill" id="fab"></i>
     </div>
+
+    <!-- <div id="block3">
+        <div class="capt">
+            <h2>Реквизиты</h2>
+        </div>
+        <div class="info">
+            <ul>
+                <li>ИП " Гасанова Телли Фаррух кызы "</li>
+                <li>ИНН 184101935650</li>
+                <li>ОГРНИП 322508100438260</li>
+                <li>Юр адрес: Московская область, г. Раменский Улица Северное шоссе 36 кв 246</li>
+            </ul>
+        </div>
+    </div> -->
  
     <!-- Подвал -->
-    <div id="block3">
-        <p id="whc">w, h</p>
-        <p>Powered by put.rope.on.my.neck</p>
+    <div id="block4">
+        <div class="info">
+            <h4>Реквизиты</h4>
+            <ul>
+                <li>ИП " Гасанова Телли Фаррух кызы "</li>
+                <li>ИНН 184101935650</li>
+                <li>ОГРНИП 322508100438260</li>
+                <li id="shrt">Юр адрес: Московская область</li>
+            </ul>
+        </div>
+        <div class="cpryt">
+            <p>&copy; 2023 Snabjenie-msk. Все права защищены.</p>            
+        </div>
     </div>
 
-    <script>
-        const whcElement = document.getElementById("whc");
-
-        const width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-        const height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-
-        whcElement.textContent = `w: ${width}px, h: ${height}px`;
-    </script>
     <script src="script.js"></script>
     <script src="send.js"></script>
 </body>

@@ -70,13 +70,13 @@ body {
     /*width: 45%;*/
 }
 
-#block1_5 {
+.capt {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     /*background-color: rgb(247, 247, 247);*/
 }
 
-#block1_5 h1 {
+.capt h1 {
     margin: 0;
     padding: 10px 0 10px 0;
     font-weight: 600;
@@ -269,14 +269,73 @@ body {
     margin-left: 3%;
 }
 
+/*#block3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: orange;
+    color: black;
+    border-radius: 25px 25px 0 0;
+}
+
+.info {
+    margin: 0;
+    padding: 0;
+}
+
+.info ul {
+    list-style-type: none;
+    /*text-decoration: none;*/
+/*}*/
+
+/*.info ul li {
+    padding: 10px;
+}
+*/
 /* Подвал */
-#block3 {
+#block4 {
     font-family: 'Montserrat', sans-serif;
     background-color: black;
     color: white;
     text-align: left;
     padding: 15px;
     margin-top: auto;
+}
+
+.info {
+    margin: 0;
+    padding: 0;
+
+}
+
+.info h4 {
+   margin: 0;
+   padding: 0;
+}
+
+.info ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #fff8;
+}
+
+.info ul li {
+    padding: 5px;
+    font-size: 13px;
+}
+
+#shrt {
+    text-decoration: none;
+    
+}
+
+#shrt::after {
+    content: ', г. Раменский Улица Северное шоссе 36 кв 246'
+}
+
+.cpryt {
+    text-align: center;
 }
 
 .btn {
@@ -445,6 +504,18 @@ body {
     #xx {
         line-height: 0.9;
     }
+
+    #shrt {
+    text-decoration: none;
+    }
+
+    #shrt::after {
+        content: ' ...'
+    }
+
+    #shrt:hover::after {
+        content: ', г. Раменский Улица Северное шоссе 36 кв 246';
+    }
 }
 
 @media (min-width: 920px) {
@@ -518,13 +589,6 @@ body {
         margin: 0;
     }
 }
-
-#whc {
-    /*display: inline-block;*/
-    float: right;
-    /*margin-right: auto;*/
-}
-
 
 /*keyframess*/
 @keyframes opst {
