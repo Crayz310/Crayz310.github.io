@@ -49,6 +49,16 @@ if (!isSafari) {
 		}
 	});
 
+	// window.addEventListener('load', function() {
+	// 	var loadMain = document.querySelector('.loader');
+	// 	var loadContainer = document.querySelector('.loader-container');
+	// 	loadMain.style.animation = 'none';
+	// 	loadContainer.style.animation = 'fadesc 3s ease';
+	// 	setTimeout(function() {
+	// 		loadContainer.style.display = 'none';
+	// 	}, 3000);
+	// });
+
 	handleFabColor();
 }
 
