@@ -9,21 +9,9 @@
     <link rel="stylesheet" type="text/css" href="fonts/mnsrt.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <title>Snabjenie-msk.ru</title>
+    <title>Снабжение МСК</title>
     <script src="jquery-3.3.1.min.js"></script>
     <style>
-        @keyframes spin {
-            from {
-                /*transform: scale(1.2);*/
-                transform: rotate3d(1, 0, 1, 0deg);
-            }
-
-            to {
-                /*transform: scale(10);*/
-                transform: rotate3d(0, 1, 0, 365deg);
-            }
-        }
-
         @keyframes fadesc {
             from {
                 opacity: 1;
@@ -38,8 +26,6 @@
         window.addEventListener('load', function() {
             var loadMain = document.querySelector('.loader');
             var loadContainer = document.querySelector('.loader-container');
-            loadMain.style.animation = 'none';
-            // loadMain.style.animation = 'fadesc 1s ease-in-out';
             loadContainer.style.animation = 'fadesc 2s ease-in-out';
             setTimeout(function() {
                 loadContainer.style.display = 'none';
@@ -50,34 +36,15 @@
 <body>
     <div class="loader-container" style=" margin: 0; padding: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; position: fixed; width: 100%; height: 100%; left: 0; top: 0; background-color: black; z-index: 999">
         <div class="loader" style="will-change: transform; display: flex; position: relative; flex-direction: column; justify-content: center; align-items: center;">
-            <!-- <i class="bi bi-buildings-fill" style="font-size: 50px; color: white; animation: spin 1s infinite;"></i> -->
-            <!-- <img src="hammer.png" alt="aaaa" style="width: 75px; height: 75px; animation: spin 1s infinite;"> -->
             <img src="hm.gif" alt="aaaa" style="width: 100px; height: 100px;">
         </div>
     </div>
-    <!-- <script>
-        $(document).ready(function() {
-            const $fab = $('#fab');
-            const $modalOverlay = $('#modalOverlay');
-            const $closeModal = $('#closeModal');
-
-            $fab.on('click', function() {
-                $modalOverlay.css('display', 'flex');
-            });
-
-            $closeModal.on('click', function() {
-                $modalOverlay.css('displayi', 'none');
-            });
-        });
-    </script> -->
-    <!-- Обложка -->
+    
     <div id="block1">
         <h1 id="hx">У вас есть готовая смета?</h1>
         <h2 id="xx">Уже сегодня отправим предложение</h2>
-        <!-- <h2>Подзаголовок</h2> -->
         <a href="#" class="btn"><i class="bi bi-cloud-arrow-down-fill" style="font-size: 20px;"></i> Загрузить</a>
         <img src="matafaka2.png" alt="fmz">
-        <!-- <button>Целевое действие</button> -->
     </div>
 
     <!-- just put it here -->
@@ -97,7 +64,6 @@
                 <li>Гиспокартон</li>
                 <li>Фанера</li>
             </ul>
-            <!-- <h4>Гиспокартон<br>Фанера</h4> -->
         </div>
         <div class="column" id="c3">
             <p>Строительные блоки</p>
@@ -160,8 +126,6 @@
             <i class="bi bi-telephone-inbound-fill"><input type="text" name="$Телефон" placeholder="Телефон"></i>
             <input type="submit" value="Отправить" id="closeModal">
             </form>
-
-            <!-- <button id="closeModal">Close</button> -->
         </div>
     </div>
 
@@ -169,22 +133,7 @@
         <i class="fab bi bi-telephone-fill" id="fab"></i>
     </div>
 
-    <!-- <div id="block3">
-        <div class="capt">
-            <h2>Реквизиты</h2>
-        </div>
-        <div class="info">
-            <ul>
-                <li>ИП " Гасанова Телли Фаррух кызы "</li>
-                <li>ИНН 184101935650</li>
-                <li>ОГРНИП 322508100438260</li>
-                <li>Юр адрес: Московская область, г. Раменский Улица Северное шоссе 36 кв 246</li>
-            </ul>
-        </div>
-    </div> -->
- 
-    <!-- Подвал -->
-    <div id="block4">
+    <div id="block3">
         <div class="info">
             <h4>Реквизиты</h4>
             <ul>
