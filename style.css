@@ -506,11 +506,11 @@ body {
     }
 
     #shrt {
-    text-decoration: none;
+    text-decoration: underline;
     }
 
     #shrt::after {
-        content: ' ...'
+        content: ' ...';
     }
 
     #shrt:hover::after {
