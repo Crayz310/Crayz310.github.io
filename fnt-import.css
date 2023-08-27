@@ -1,0 +1,13 @@
+/*Custom fonts load*/
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url(fonts/montserrat.ttf)
+format('truetype');
+}
+
+@font-face {
+	font-family: 'Dela Goth';
+	src: url(fonts/dela_goth.ttf)
+format('truetype');
+}

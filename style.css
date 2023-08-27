@@ -1,5 +1,7 @@
+@import url('fnt-import.css');
+
 .cbdy {
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 	background-color: #FBFBFB;
 }
 
@@ -142,7 +144,7 @@
 }
 
 #mockup {
-	font-family: 'Dela Gothic One';
+	font-family: 'Dela Goth', sans-serif;
 	/*font-weight: bold;*/
 }
 
