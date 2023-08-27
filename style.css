@@ -3,6 +3,17 @@
 .cbdy {
 	font-family: 'Montserrat', sans-serif;
 	background-color: #FBFBFB;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.fc {
+	flex: 1 0 auto;
+}
+
+.ff {
+	flex: 0 0 auto;
 }
 
 .mainh {
