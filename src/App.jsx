@@ -8,8 +8,24 @@ import '@/App.css';
 
 const App = () => {
 	const usn = 'Crayz310';
-	const about =
-		"I'm Dave, a junior web developer with nearly a year of experience. My passion lies in crafting dynamic and responsive web applications using technologies like React and Vue. I enjoy tackling challenges and continuously expanding my skills in the ever-evolving world of web development. Let's connect and collaborate on exciting projects!";
+	const about = `👋 Hi, I'm an aspiring web developer with a year of experience in building web applications.
+
+	🔭 I'm currently focusing on frontend development using React and Vue.js. 
+	I enjoy creating intuitive and responsive user interfaces.
+
+	🌱 I am constantly learning and growing in the web technology field. I'm currently deepening my knowledge 
+	React and Vue, as well as starting to learn server-side rendering and GraphQL.
+
+	💡 I strive to write clean, efficient and maintainable code.
+
+	🤝 I am open for cooperation in interesting projects and always glad to share my experience with other developers. 
+	with other developers.
+
+	⚡ Interesting fact: When I'm not writing code, I'm sleeping.....
+
+	📫 Feel free to contact me to discuss projects or just chat about web development!
+`;
+
 	useEffect(() => {
 		document.title = `${usn} | GitProfile`;
 	});
