@@ -16,7 +16,13 @@ export default {
 			onyx: 'hsl(240, 1%, 17%)',
 			jet: 'hsl(0, 0%, 22%)',
 			'smoke-black': 'hsl(0, 0%, 7%)',
-			balck: '#000000'
+			balck: '#000000',
+			vite: '#1F1A29',
+			vue: '#1A2922',
+			pinia: '#29251A',
+			react: '#1A2729',
+			query: '#291A1C',
+			redux: '#201A29'
 		}
 	},
 	plugins: []

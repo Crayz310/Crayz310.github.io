@@ -14,7 +14,7 @@ const Projects = ({ username }) => {
 			<div className="bg-erie text-white w-full mt-8 py-4 px-8 flex flex-col justify-center rounded-2xl border-solid border border-jet shadow-xl">
 				<h1 className="text-xl font-semibold mb-5">Projects</h1>
 				{reposLoading ? (
-					<div className="bg-dark-erie h-[50px] mb-5 py-2 px-5 flex flex-row items-center gap-5 rounded-xl holder"></div>
+					<div className="bg-dark-erie h-12 mb-5 py-2 px-5 flex flex-row items-center gap-5 rounded-xl holder"></div>
 				) : (
 					<>
 						{reposError ? (
