@@ -3,6 +3,7 @@ import About from '@/components/About';
 import Projects from '@/components/Projects';
 import { useEffect } from 'react';
 import Tech from '@/components/Tech';
+import Footer from '@/components/Footer';
 import '@/App.css';
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
 				<About text={about} />
 				<Projects username={usn} />
 				<Tech />
+				<Footer />
 			</section>
 		</>
 	);
