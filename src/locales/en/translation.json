@@ -1,0 +1,16 @@
+{
+	"profile": {
+		"position": "Web developer",
+		"mail": "Mail me"
+	},
+	"about": {
+		"title": "About me",
+		"description": "👋 Hi, I'm an aspiring web developer with a year of experience in building web applications.\n🔭 I'm currently focusing on frontend development using React and Vue.js.\nI enjoy creating intuitive and responsive user interfaces.\n🌱 I am constantly learning and growing in the web technology field.\nI'm currently deepening my knowledge React and Vue, as well as starting to learn server-side rendering and GraphQL.\n💡 I strive to write clean, efficient and maintainable code.\n🤝 I am open for cooperation in interesting projects and always glad to share my experience with other developers.\n⚡ Interesting fact: When I'm not writing code, I'm sleeping....\n📫 Feel free to contact me to discuss projects or just chat about web development!"
+	},
+	"projects": {
+		"title": "Projects"
+	},
+	"tech": {
+		"title": "technology Stack"
+	}
+}

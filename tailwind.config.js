@@ -9,6 +9,7 @@ export default {
 			red: '#FF0000',
 			violet: '#7b2eda',
 			white: '#ffffff',
+			grey: '#DFDFDF',
 			'smoke-white': 'hsl(0, 0%, 98%)',
 			'light-erie': 'hsl(240, 2%, 13%)',
 			erie: 'hsl(240, 2%, 12%)',

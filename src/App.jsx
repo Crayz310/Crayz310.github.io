@@ -1,42 +1,32 @@
+import { useEffect } from 'react';
 import UserProfile from '@/components/UserProfile';
 import About from '@/components/About';
 import Projects from '@/components/Projects';
-import { useEffect } from 'react';
 import Tech from '@/components/Tech';
 import Footer from '@/components/Footer';
+import { useTranslation } from 'react-i18next';
+import '@/i18n';
 import '@/App.css';
 
 const App = () => {
-	const usn = 'Crayz310';
-	const about = `👋 Hi, I'm an aspiring web developer with a year of experience in building web applications.
-
-	🔭 I'm currently focusing on frontend development using React and Vue.js. 
-	I enjoy creating intuitive and responsive user interfaces.
-
-	🌱 I am constantly learning and growing in the web technology field. I'm currently deepening my knowledge 
-	React and Vue, as well as starting to learn server-side rendering and GraphQL.
-
-	💡 I strive to write clean, efficient and maintainable code.
-
-	🤝 I am open for cooperation in interesting projects and always glad to share my experience with other developers. 
-	with other developers.
-
-	⚡ Interesting fact: When I'm not writing code, I'm sleeping.....
-
-	📫 Feel free to contact me to discuss projects or just chat about web development!
-`;
+	const user = 'Crayz310';
+	const { t } = useTranslation();
 
 	useEffect(() => {
-		document.title = `${usn} | GitProfile`;
+		document.title = `${user} | GitProfile`;
 	});
 
 	return (
 		<>
 			<section id="content" className="px-5 lg:px-16">
-				<UserProfile username={usn} />
-				<About text={about} />
-				<Projects username={usn} />
-				<Tech />
+				<UserProfile
+					position={t('profile.position')}
+					mailText={t('profile.mail')}
+					username={user}
+				/>
+				<About sectionName={t('about.title')} text={t('about.description')} />
+				<Projects sectionName={t('projects.title')} username={user} />
+				<Tech sectionName={t('tech.title')} />
 				<Footer />
 			</section>
 		</>

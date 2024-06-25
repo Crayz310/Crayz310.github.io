@@ -1,14 +1,15 @@
+import PropTypes from 'prop-types';
 import VueLogo from '@/assets/vue.svg';
 import PiniaLogo from '@/assets/pinia.svg';
 import ReactLogo from '@/assets/react.svg';
 import ReactQueryLogo from '@/assets/react-query.svg';
 import ReduxLogo from '@/assets/redux.svg';
 
-const Tech = () => {
+const Tech = ({ sectionName }) => {
 	return (
 		<>
 			<div className="bg-erie text-smoke-white w-full mt-8 py-4 px-8 flex flex-col justify-center rounded-2xl border-solid border border-jet shadow-xl">
-				<h1 className="text-xl text-white font-semibold mb-5">Tech</h1>
+				<h1 className="text-xl text-white font-semibold mb-5">{sectionName}</h1>
 				<div className="flex flex-row flex-wrap items-center justify-center gap-3 overflow-hidden">
 					<div className="bg-vite min-w-36 min-h-9 flex flex-row items-center justify-center gap-2 rounded-lg py-0.5">
 						<img src="/vite.svg" alt="Vite" width="25" height="25" />
@@ -38,6 +39,10 @@ const Tech = () => {
 			</div>
 		</>
 	);
+};
+
+Tech.propTypes = {
+	sectionName: PropTypes.string.isRequired
 };
 
 export default Tech;
