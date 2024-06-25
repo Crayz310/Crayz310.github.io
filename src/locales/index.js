@@ -1,6 +1,6 @@
 import en from '@/locales/en/translation.json';
 import ru from '@/locales/ru/translation.json';
-import ua from '@/locales/ua/translation.json';
+import uk from '@/locales/uk/translation.json';
 
 export default {
 	en: {
@@ -9,7 +9,7 @@ export default {
 	ru: {
 		translation: ru
 	},
-	ua: {
-		translation: ua
+	uk: {
+		translation: uk
 	}
 };
